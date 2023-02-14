@@ -1,11 +1,146 @@
-*{
+/* <i class="bx bx-hot"></i> */
+
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
 }
 
-#title-text{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  color: gray;
+:root {
+  --main-color: #ff702a;
+  --text-color: #ffffff;
+  --bg-color: #1e1c2a;
+  --big-fonts: 5rem;
+  --h2-fonts: 2.25rem;
+  --p-fonts: 0.9rem;
 }
+
+body {
+  background-color: var(--bg-color);
+}
+
+/* Header Bar CSS start */
+
+#navbar-container{
+  width: 100%;
+   position: sticky;
+   top: 0px;
+}
+
+header{
+  /* background-color: #ffffff; */
+  width: 85%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.logo-container{
+  flex-grow: 2;
+}
+
+.logo-text{
+  margin-left: 24px;
+  color: var(--main-color);
+  font-size: var(--h2-fonts);
+  font-weight: 600;
+}
+
+.nav-container{
+  flex-grow: 1;
+}
+
+.nav-container ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-container ul li{
+  margin-right: 24px;
+}
+
+.nav-link-item{
+  color: var(--text-color);
+  font-size: var(--p-fonts);
+}
+
+.nav-link-item:hover{
+  color: var(--main-color);
+}
+
+/* Header Bar CSS end */
+
+/* Main Body CSS Start */
+
+.body-container{
+  width: 100%;
+}
+
+main{
+  width: 70%;
+  min-height: 90vh;
+  margin: 0px auto;
+}
+
+/* Main Body CSS End here */
+
+/* Banner Section css start */
+
+.banner-section-container{
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+
+.ban-sec-left-con{
+  height: 100%;
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* padding-left: 20px; */
+}
+
+.ban-sec-left-con h2{
+  font-size: var(--h2-fonts);
+  color: var(--main-color);
+}
+
+.ban-sec-left-con p{
+  font-size: var(--p-fonts);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  color: var(--text-color);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ban-sec-left-con button{
+  background-color: var(--main-color);
+  border: 0px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  color: var(--text-color);
+}
+
+.ban-sec-right-con{
+  height: 100%;
+  width: 100%;
+  flex-grow: 1;
+  background-image: url(./assets/img/home.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--bg-color);
+}
+
+/* Banner Section css end */

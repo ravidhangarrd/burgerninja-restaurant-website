@@ -1,11 +1,16 @@
-
+import Header from './components/Header';
 import './App.css';
+import MainBody from './components/MainBody';
 
-function App() {
+const App = () => {
   return (
     <>
-    <h1 id='title-text'>Food </h1>
-    <h1>Without Poppins</h1>
+      <div id='navbar-container'>
+        <Header />
+      </div>
+      <div id='body-container'>
+        <MainBody />
+      </div>
     </>
   );
 }
