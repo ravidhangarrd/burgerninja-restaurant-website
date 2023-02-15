@@ -71,6 +71,7 @@ header{
 
 .nav-link-item:hover{
   color: var(--main-color);
+  font-weight: 600;
 }
 
 /* Header Bar CSS end */
@@ -204,3 +205,167 @@ main{
 }
 
 /* About Us Section End */
+
+/* Footer Section Start */
+
+#footer-container{
+  width: 100%;
+  height: 250px;
+}
+
+footer{
+  width: 70%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+}
+
+footer div{
+  width: 100%;
+  height: 100%;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+}
+
+.list ul li{
+  margin-top: 10px;
+}
+
+.list h4{
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+.list-item{
+  color: rgb(194, 194, 205);
+  font-size: var(--p-fonts);
+}
+
+.list-item:hover{
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.end-list h4{
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+.icon-con{
+  width: 100%;
+  display: flex;
+}
+
+.end-list ul{
+  display: flex;
+  margin-top: 10px;
+}
+
+.end-list ul li{
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+}
+
+#icon1 {
+  color: var(--text-color);
+  font-size: 15px;
+}
+
+#icon2 {
+  color: var(--text-color);
+  font-size: 15px;
+}
+
+#icon3 {
+  color: var(--text-color);
+  font-size: 15px;
+}
+
+#icon4 {
+  color: var(--text-color);
+  font-size: 15px;
+}
+
+/* Footer Section End */
+
+/* Food Menu container start */
+
+#food-menu{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#food-menu p{
+  font-size: var(--p-fonts);
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+#food-menu h2{
+  color: var(--text-color);
+}
+
+.food-menu-card{
+  width: 100%;
+  height: 70%;
+  display: flex;
+}
+
+/* Food Menu container start */
+
+/* Food Card Start */
+
+#food-card{
+  margin: 10px;
+  width: 90%;
+  height: 90%;
+  background-color: #fae6dc;
+  flex-grow: 1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Food Card End */
+
+
+/* Lets  Talk Start */
+
+#letstalk-container{
+  width: 100%;
+  height: 200px;
+  background-color: #fae6dc;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#letstalk-container button{
+  background-color: var(--main-color);
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-top: 10px;
+}
+
+/* Lets  Talk End */

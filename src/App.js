@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import './App.css';
 import MainBody from './components/MainBody';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -10,6 +11,9 @@ const App = () => {
       </div>
       <div id='body-container'>
         <MainBody />
+      </div>
+      <div id='footer-container'>
+        <Footer />
       </div>
     </>
   );
