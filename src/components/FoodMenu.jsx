@@ -12,9 +12,9 @@ const FoodMenu = () => {
       <p>Food Menu</p>
       <h2>Fresh taste and great price</h2>
       <div className='food-menu-card'>
-        <FoodMenuCard imgValue={food1} foodTitle={"Chicken Burger"} foodDisc={"Tasty Food"} foodPrice={"$11.00"} />
-        <FoodMenuCard imgValue={food2} foodTitle={"Chicken Burger"} foodDisc={"Tasty Food"} foodPrice={"$11.00"} />
-        <FoodMenuCard imgValue={food3} foodTitle={"Chicken Burger"} foodDisc={"Tasty Food"} foodPrice={"$11.00"} />
+        <FoodMenuCard imgValue={food1} foodTitle={"Chicken Burger"} foodDisc={"Tasty Food"} foodPrice={"Rs 40.00"} />
+        <FoodMenuCard imgValue={food2} foodTitle={"Special Burger"} foodDisc={"Tasty Food"} foodPrice={"Rs 60.00"} />
+        <FoodMenuCard imgValue={food3} foodTitle={"Chicken Fry Pack"} foodDisc={"Tasty Food"} foodPrice={"Rs 80.00"} />
       </div>
     </section>
     </>

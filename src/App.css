@@ -29,6 +29,7 @@ body {
   width: 100%;
    position: sticky;
    top: 0px;
+   box-shadow: 1px 1px 5px rgb(27, 26, 26);
 }
 
 header{
@@ -340,6 +341,20 @@ footer div{
   align-content: center;
 }
 
+#food-card #card-title{
+  color: black;
+  font-weight: 600;
+}
+
+#food-card #card-disc{
+  color: rgb(53, 53, 54);
+  font-size: 0.8rem;
+}
+
+#food-card #card-price{
+  font-size: 0.7rem;
+}
+
 /* Food Card End */
 
 
@@ -369,3 +384,73 @@ footer div{
 }
 
 /* Lets  Talk End */
+
+/* Over Services start */
+
+#over-services-container{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#over-services-container p {
+  font-size: var(--p-fonts);
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+#over-services-container h2{
+  color: var(--text-color);
+}
+
+.service-card-con{
+  width: 100%;
+  height: 150px;
+  /* background-color: #ff702a; */
+  display: flex;
+}
+
+#service-card{
+  width: 70%;
+  height: 90%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+#service-card #scard-title{
+  font-size: var(--p-fonts);
+  font-weight: 600;
+}
+
+#service-card #scard-disc{
+  font-size: 0.7rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+/* Over Services end */
+
+/* Copyright start */
+
+#copyright-con{
+  width: 100%;
+  height: 30px;
+  background-color: #fae6dc;
+}
+
+#copyright-con p{
+  text-align: center;
+  color: var(--bg-color);
+  font-size: var(--p-fonts);
+  font-weight: 600;
+  line-height: 30px;
+}
+
+/* Copyright end */

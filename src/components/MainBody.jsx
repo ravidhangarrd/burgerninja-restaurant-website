@@ -3,6 +3,7 @@ import TopBanner from './TopBanner'
 import AboutUs from './AboutUs'
 import FoodMenu from './FoodMenu'
 import LetsTalk from './LetsTalk'
+import OverServices from './OverServices.'
 
 const MainBody = () => {
   return (
@@ -11,6 +12,7 @@ const MainBody = () => {
         <TopBanner />
         <AboutUs />
         <FoodMenu />
+        <OverServices />
         <LetsTalk />
     </main>
     </>
