@@ -9,8 +9,8 @@ const TopBanner = () =>  {
             <p>Foods the <br />most precious things</p>
             <button>Today's Menu</button>
         </div>
+        
         <div className='ban-sec-right-con'>
-
         </div>
     </section>
     </>

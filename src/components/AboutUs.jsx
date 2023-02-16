@@ -5,8 +5,8 @@ const AboutUs = () => {
     <>
     <section className='aboutus-section-container'>
       <div className='aboutus-sec-left-con'>
-
       </div>
+      
       <div className='aboutus-sec-right-con'>
         <p id="about-text">About Us</p>
         <h3>We speak the good<br/>food language</h3>

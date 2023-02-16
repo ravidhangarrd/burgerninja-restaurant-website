@@ -30,6 +30,7 @@ body {
    position: sticky;
    top: 0px;
    box-shadow: 1px 1px 5px rgb(27, 26, 26);
+   background-color: var(--bg-color);
 }
 
 header{
@@ -81,11 +82,12 @@ header{
 
 .body-container{
   width: 100%;
+  height: auto;
 }
 
 main{
   width: 70%;
-  min-height: 90vh;
+  height: auto;
   margin: 0px auto;
 }
 
@@ -142,7 +144,6 @@ main{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--bg-color);
 }
 
 /* Banner Section css end */
@@ -408,7 +409,7 @@ footer div{
 
 .service-card-con{
   width: 100%;
-  height: 150px;
+  min-height: 150px;
   /* background-color: #ff702a; */
   display: flex;
 }
@@ -454,3 +455,162 @@ footer div{
 }
 
 /* Copyright end */
+
+/* media query for 640px <= width */
+
+@media screen and (max-width: 640px){
+
+  header{
+    width: 100%;
+    height: 60px;
+  }
+
+  main{
+    width: 100%;
+  }
+
+  footer{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #letstalk-container{
+    height: 150px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+  }
+
+  .nav-container{
+    display: none;
+  }
+
+  .logo-text{
+    font-size: 1.5rem;
+  }
+
+  #food-menu{
+    height: auto;
+  }
+
+  #food-card{
+    width: 70%;
+  }
+
+  .food-menu-card{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #food-menu h2{
+    text-align: center;
+    width: 70%;
+  }
+
+  #over-services-container{
+    height: auto;
+  }
+
+  #over-services-container h2{
+    width: 70%;
+    text-align: center;
+  }
+
+  .service-card-con{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutus-section-container{
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+  }
+
+  .aboutus-sec-left-con{
+    width: 70%;
+    background-position: center;
+  }
+
+  .aboutus-sec-right-con{
+    width: 70%;
+    align-items: center;
+  }
+
+  .aboutus-sec-right-con p{
+    text-align: center;
+  }
+  
+  .aboutus-sec-right-con button{
+    width: 100%;
+  }
+
+  .banner-section-container{
+    flex-direction: column-reverse;
+    align-self: center;
+    align-items: center;
+  }
+  .ban-sec-left-con{
+    width: 70%;
+    align-items: center;
+  }
+
+  .ban-sec-left-con h2{
+    text-align: center;
+  }
+
+  .ban-sec-right-con{
+    width: 70%;
+  }
+
+  .ban-sec-left-con button{
+    width: 100%;
+  }
+
+  .ban-sec-left-con h2{
+    font-size: 1.5rem;
+  }
+
+  #footer-container{
+    height: auto;
+  }
+  
+  .list{
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .list ul li{
+    text-align: center;
+    margin-top: 3px;
+  }
+
+  .end-list{
+    margin-bottom: 20px;
+  }
+
+  .end-list hr{
+    text-align: center;
+  }
+  
+  .end-list h4{
+    text-align: center;
+  }
+
+  .end-list ul{
+    justify-content: center;
+  }
+
+  #copyright-con{
+    height: 20px;
+  }
+
+  #copyright-con p{
+    font-size: 0.6rem;
+    line-height: 20px;
+  }
+
+
+
+}
