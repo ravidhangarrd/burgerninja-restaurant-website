@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-    <footer>
+    <footer id='contact'>
         <div className='list'>
             <h4>Menu Links</h4>
             <hr width="40px" color='#ff702a'/>

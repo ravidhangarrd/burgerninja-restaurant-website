@@ -6,7 +6,7 @@ const TopBanner = () =>  {
     <section className='banner-section-container'>
         <div className='ban-sec-left-con'>
             <h2>Cafe Burger Ninja</h2>
-            <p>Foods the <br />most precious things</p>
+            <span>Foods the</span><span className='btm-span'>most precious things</span>
             <button>Today's Menu</button>
         </div>
         

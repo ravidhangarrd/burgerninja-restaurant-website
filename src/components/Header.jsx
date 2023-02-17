@@ -1,5 +1,6 @@
 import React from 'react';
-import {NavLink, Link} from 'react-router-dom'
+import { HashLink as Link} from 'react-router-hash-link';
+
 
 const Header = () =>{
     return(
@@ -12,12 +13,15 @@ const Header = () =>{
                 </div>
                 <div className='nav-container'>
                     <ul>
-                        <li><NavLink className={"nav-link-item"} to={"#"}>Home</NavLink></li>
-                        <li><NavLink className={"nav-link-item"} to={"#"}>About</NavLink></li>
-                        <li><NavLink className={"nav-link-item"} to={"#"}>Menu</NavLink></li>
-                        <li><NavLink className={"nav-link-item"} to={"#"}>Service</NavLink></li>
-                        <li><NavLink className={"nav-link-item"} to={"#"}>Contact</NavLink></li>
+                        <li><Link className={"nav-link-item"} to={"#"} smooth>Home</Link></li>
+                        <li><Link className={"nav-link-item"} to={"#about"} smooth>About</Link></li>
+                        <li><Link className={"nav-link-item"} to={"#food-menu"} smooth>Menu</Link></li>
+                        <li><Link className={"nav-link-item"} to={"#over-services-container"} smooth>Service</Link></li>
+                        <li><Link className={"nav-link-item"} to={"#contact"} smooth>Contact</Link></li>
                     </ul>
+                </div>
+                <div id='side-bar-icon'>
+                        <i class="fa fa-bars" aria-hidden="true"></i>
                 </div>
         </header>
         </>
