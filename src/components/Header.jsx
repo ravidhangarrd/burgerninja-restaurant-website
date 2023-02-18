@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { HashLink as Link} from 'react-router-hash-link';
-
+import { NavLink } from 'react-router-dom';
 
 const Header = () =>{
+
+    let [disPro, setDisPro] = useState("block");
+
     return(
         <>
         <header>
@@ -11,7 +14,7 @@ const Header = () =>{
                         <Link className='logo-text' to={"#"}>BurgerNinja</Link>
                     </h2>
                 </div>
-                <div className='nav-container'>
+                <div id='nav-con' className='nav-container'>
                     <ul>
                         <li><Link className={"nav-link-item"} to={"#"} smooth>Home</Link></li>
                         <li><Link className={"nav-link-item"} to={"#about"} smooth>About</Link></li>
@@ -21,7 +24,10 @@ const Header = () =>{
                     </ul>
                 </div>
                 <div id='side-bar-icon'>
-                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    <NavLink onClick={()=>{
+                        document.getElementById("nav-con").style.display = disPro;
+                        (disPro === "block")?setDisPro("none"):setDisPro("block");
+                    }} id='toggle-btn' to='#'><i class="fa fa-bars" aria-hidden="true"></i></NavLink>
                 </div>
         </header>
         </>
