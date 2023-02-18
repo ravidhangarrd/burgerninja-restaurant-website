@@ -4,7 +4,7 @@ const Copyright = () => {
   return (
     <>
     <section id='copyright-con'>
-        <p>GitHub: ravidhangar-rd</p>
+        <p>GitHub: ravidhangarrd</p>
     </section>
     </>
   )
